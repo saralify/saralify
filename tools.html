@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <style>
+      .register .nav-tabs .nav-link:hover {
+        border: none;
+      }
+      .text-align {
+        margin-top: -3%;
+        margin-bottom: -9%;
+
+        padding: 10%;
+        margin-left: 30%;
+      }
+      .form-new {
+        margin-right: 22%;
+        margin-left: 20%;
+      }
+      .register-heading {
+        margin-left: 21%;
+        margin-bottom: 10%;
+        color: #e9ecef;
+      }
+      .register-heading h1 {
+        margin-left: 21%;
+        margin-bottom: 10%;
+        color: #e9ecef;
+      }
+      .register {
+        background: -webkit-linear-gradient(left, #ff7f08, #00c6ff);
+        margin-top: 3%;
+        padding: 3%;
+        border-radius: 2.5rem;
+      }
+      .btnSubmit {
+        width: 50%;
+        border-radius: 1rem;
+        padding: 1.5%;
+        color: #fff;
+        background-color: #03612e;
+        border: none;
+        cursor: pointer;
+        margin-right: 6%;
+        color: rgb(246, 246, 252);
+        margin-top: 4%;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+  </head>
+  <body>
+    <div class="container register">
+      <div class="row">
+        <div class="col-md-12">
+          <div
+            class="tab-pane fade show active text-align form-new"
+            id="home"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+          >
+
+         
+            <h3 class="register-heading text-nowrap">Saralify Office tools</h3>
+            <div class="row register-form">
+              <div class="col-md-12">
+                <form autocomplete="off">
+                  <div class="form-group">
+                    <input
+                      name="Phone"
+                      id="phone"
+                      class="form-control"
+                      placeholder="Your Contact Number *"
+                      value=""
+                      required=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <select class="form-control js-example-tags" id="service">
+                      
+                      <option
+                        value="Learn+German+A1+%2B+A2+%2B+B1+for+only+299+Euros+only%0D%0APlease+allow+me+to+book+free+demo+for+you+%3A%29&app_absent=0">Pricing German</option>
+                      <option value="%E2%9C%93+Live+%26+recorded+classes+through+our+App.%0D%0A%E2%9C%93+Experienced+faculty+%28+Native%2F+non+native%29%0D%0A%E2%9C%93+Complete+mentorship+till+you+get+command+over+language%2C+Job+%26+your+favourite+University+in+Germany.%0D%0A%E2%9C%93+Local+support+in+Germany.%0D%0A%E2%9C%93+Help+in+getting+a+Job.%0D%0A%E2%9C%93+Free+study+materials%0D%0A%E2%9C%93+After+every+class+whiteboard+will+be+converted+into+pdf+and+shared+daily+basis.%0D%0A%E2%9C%93+Free+speaking+classes%0D%0A%E2%9C%93+Interaction+with+students+across+the+Globe%0D%0A%E2%9C%93+Free+exam+preparation%0D%0A%E2%9C%93+Life+time+membership.%0D%0A%0D%0AGerman+a1+for+89%2C+a2+for+129+and+b1+for+149+euros+only&app_absent=0">German Without Saralify Brand</option>
+                      <option value="%E2%9C%93+Best+GERMAN+Language+Training+Institute+with+native+faculty+%0D%0A%E2%9C%93+Small+group%2F1-1+classes+for+German+A1+to+C1+Level%0D%0A%E2%9C%93+Help+in+getting+a+Admission+in+Germany.%0D%0A%E2%9C%93+Help+in+getting+a+Job+in+Germany.%0D%0A%E2%9C%93+Live+%26+recorded+classes+through+our+App.%0D%0A%E2%9C%93+Experienced+faculties%28+Native%2F+non+native%29+with+5%2B1+format+.%0D%0A%E2%9C%93+Free+study+materials%0D%0A%E2%9C%93+After+every+class+whiteboard+will+be+converted+into+pdf+and+shared+daily+basis.%0D%0A%E2%9C%93+Free+speaking+classes%0D%0A%E2%9C%93+Interaction+with+students+across+the+Globe%0D%0A%E2%9C%93+Free+exam+preparation%0D%0A%E2%9C%93+Life+time+membership.%0D%0AVisit%3A+https%3A%2F%2Fsaralify.com%2Fenglish.html%0D%0AThanks%0D%0ASaralify&app_absent=0">German Saralify Brand</option>
+                      <option value="%E2%9C%93+Best+IELTS+Training+Institute+with+native+faculty+%0D%0A%E2%9C%93+Small+group%2F1-1+classes+%0D%0A%E2%9C%93+Live+%26+recorded+classes+through+our+App.%0D%0A%E2%9C%93+Experienced+faculties%28+Native%2F+non+native%29+with+5%2B1+format+.%0D%0A%E2%9C%93+Help+in+getting+a+Admission+in+Germany.%0D%0A%E2%9C%93+Help+in+getting+a+Job+in+Germany.%0D%0A%E2%9C%93+Free+study+materials%0D%0A%E2%9C%93+After+every+class+whiteboard+will+be+converted+into+pdf+and+shared+daily+basis.%0D%0A%E2%9C%93+Free+speaking+classes%0D%0A%E2%9C%93+Interaction+with+students+across+the+Globe%0D%0A%E2%9C%93+Free+exam+preparation%0D%0A%E2%9C%93+Life+time+membership.%0D%0AVisit%3A+https%3A%2F%2Fsaralify.com%2Fenglish.html%0D%0AThanks%0D%0ASaralify&app_absent=0">IELTS Saralify Brand</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="submit"
+                      name="submit"
+                      onclick="gotowhatsapp()"
+                      class="btnSubmit btn-block"
+                      value="Submit"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+    $(".js-example-tags").select2({
+  tags: true
+});
+      function gotowhatsapp() {
+        var phone = document.getElementById("phone").value;
+
+        var service = document.getElementById("service").value;
+
+        var url = "https://wa.me/" + phone + "?text=" + service;
+
+        window.open(url, "_blank").focus();
+      }
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </body>
+</html>
